@@ -2,16 +2,6 @@
 
 This project demonstrates an end-to-end data engineering and backend workflow for NYC taxi data. It features an ETL pipeline for data cleaning and ingestion using pandas and SQLAlchemy, with a FastAPI-powered RESTful API for querying data insights.
 
-## Project Structure
-
-nyc_taxi_pipeline/
-├── data/
-│   └── sample_nyc_taxi.csv
-├── src/
-│   ├── pipeline.py
-│   └── api.py
-├── requirements.txt
-└── README.md
 
 ## Features
 
