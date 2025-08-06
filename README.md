@@ -1,9 +1,17 @@
-# Data-Pipeline-and-RESTful-API-for-NYC-Taxi-Trip-Data
-This project focuses on building a data pipeline to process NYC taxi trip data and exposes a RESTful API for querying insights. It showcases your skills in data engineering (ETL, data cleaning, storage) and backend development (API building).
-
 # NYC Taxi Data Pipeline & RESTful API
 
 This project demonstrates an end-to-end data engineering and backend workflow for NYC taxi data. It features an ETL pipeline for data cleaning and ingestion using pandas and SQLAlchemy, with a FastAPI-powered RESTful API for querying data insights.
+
+## Project Structure
+
+nyc_taxi_pipeline/
+├── data/
+│   └── sample_nyc_taxi.csv
+├── src/
+│   ├── pipeline.py
+│   └── api.py
+├── requirements.txt
+└── README.md
 
 ## Features
 
@@ -45,3 +53,4 @@ This project demonstrates an end-to-end data engineering and backend workflow fo
 
 - Python (pandas, FastAPI, SQLAlchemy, SQLite)
 - RESTful API best practices
+
